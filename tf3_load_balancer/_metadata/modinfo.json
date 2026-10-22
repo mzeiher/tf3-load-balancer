@@ -1,0 +1,8 @@
+{
+    "name": "Partial Load Balancing",
+    "summary": "Split a warehouse's stock across several lines by ratio, e.g. 20/50/30.",
+    "description": "Hub-and-spoke helper. Open a warehouse, pick a cargo and give each line that stops there a weight. The mod measures the warehouse's inflow and what each line picks up over a rolling 30-day window, and sets the max load of each line's hub stop so the stock is shared by those weights. Lines that cannot carry their share pass the surplus on to the others. When the warehouse fills up, all lines are opened up towards full load.\n\nSet the hub stops to \"Load if Available\". Untick the balancing checkbox before removing the mod; that resets the hub stops to full load and hands automatic cargo filters back to the game.",
+    "authors": [ { "name": "mzeiher", "role": "CREATOR" } ],
+    "tags": [ "Script Mod" ],
+    "url": ""
+}

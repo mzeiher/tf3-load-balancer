@@ -1,0 +1,8 @@
+{
+  "modId": "tf3-load-balancer",
+  "revision": 1,
+  "severityAdd": "None",
+  "severityRemove": "Warning",
+  "cosmetic": false,
+  "visible": true
+}
